@@ -1,0 +1,17 @@
+.fondo-blanco {
+    background-color: rgb(255, 255, 255) !important;
+}
+:root {
+    --terracota: rgb(184, 92, 56);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(184, 92, 56) !important;
+    border-bottom: 2px solid rgb(184, 92, 56);
+    font-weight: 500;
+}
+
+/* Opcional: Color al pasar el mouse por encima de los demás enlaces */
+.navbar-nav .nav-link:hover {
+    color: rgb(184, 92, 56);
+}
